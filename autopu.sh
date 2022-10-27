@@ -1,2 +1,2 @@
 #!/bin/bash
-git commit . -m '🤖' && git push origin main
+git -C /home/pi/blocklist/ commit . -m '🤖' && git -C /home/pi/blocklist/ push origin main
